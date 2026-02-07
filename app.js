@@ -5,14 +5,29 @@ let allWorks = [];
 let currentFilter = "long";
 
 function render() {
-  const items = allWorks.filter(w => currentFilter === "all" ? true : w.type === currentFilter);
+  const items = allWorks.filter(w =>
+    currentFilter === "all" ? true : w.type === currentFilter
+  );
 
   grid.innerHTML = items.map(w => `
     <article class="card">
       <h2>${escapeHtml(w.title)}</h2>
-      <p>${escapeHtml(w.desc || "")}</p>
+
+      ${w.catch ? `
+        <p class="catch"
+           style="color:${escapeHtml(w.catchColor || '#7aa2ff')}">
+          ${escapeHtml(w.catch)}
+        </p>
+      ` : ""}
+
+      <p class="desc">${escapeHtml(w.desc || "")}</p>
+
       <div class="links">
-        ${(w.links || []).map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)}</a>`).join("")}
+        ${(w.links || []).map(l =>
+          `<a href="${l.url}" target="_blank" rel="noopener noreferrer">
+            ${escapeHtml(l.label)}
+          </a>`
+        ).join("")}
       </div>
     </article>
   `).join("");
