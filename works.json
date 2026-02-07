@@ -2,6 +2,9 @@
   {
     "title": "怪異ソリューション事業部_八重山海珠のOJT記録",
     "type": "long",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#60a5fa"
     "catch": "電子の声が聞こえる新人SEが、見えない怪異(バグ)を解決する。",
     "catchColor": "#7aa2ff",
     "desc": "それは本当に障害(バグ)か。<br>
