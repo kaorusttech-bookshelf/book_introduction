@@ -9,28 +9,35 @@ function render() {
     currentFilter === "all" ? true : w.type === currentFilter
   );
 
-  grid.innerHTML = items.map(w => `
-    <article class="card">
-      <h2>${escapeHtml(w.title)}</h2>
+grid.innerHTML = items.map(w => `
+  <article class="card">
+    ${w.statusLabel ? `
+      <span class="status-badge"
+            style="background:${escapeHtml(w.statusColor || '#64748b')}">
+        ${escapeHtml(w.statusLabel)}
+      </span>
+    ` : ""}
 
-      ${w.catch ? `
-        <p class="catch"
-           style="color:${escapeHtml(w.catchColor || '#7aa2ff')}">
-          ${escapeHtml(w.catch)}
-        </p>
-      ` : ""}
+    <h2>${escapeHtml(w.title)}</h2>
 
-      <p class="desc">${escapeHtml(w.desc || "")}</p>
+    ${w.catch ? `
+      <p class="catch"
+         style="color:${escapeHtml(w.catchColor || '#7aa2ff')}">
+        ${escapeHtml(w.catch)}
+      </p>
+    ` : ""}
 
-      <div class="links">
-        ${(w.links || []).map(l =>
-          `<a href="${l.url}" target="_blank" rel="noopener noreferrer">
-            ${escapeHtml(l.label)}
-          </a>`
-        ).join("")}
-      </div>
-    </article>
-  `).join("");
+    <p class="desc">${escapeHtml(w.desc || "")}</p>
+
+    <div class="links">
+      ${(w.links || []).map(l => `
+        <a href="${l.url}" target="_blank" rel="noopener noreferrer">
+          ${escapeHtml(l.label)}
+        </a>
+      `).join("")}
+    </div>
+  </article>
+`).join("");
 }
 
 function escapeHtml(str){
