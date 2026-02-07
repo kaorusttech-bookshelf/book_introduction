@@ -3,7 +3,19 @@
   --border: rgba(255,255,255,.08);
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)
+    position: relative;
+    background: #05070f;
+    }
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("./background.png") center / cover no-repeat;
+  z-index: -1;
+}
 .wrap{max-width:980px;margin:0 auto;padding:20px}
 h1{margin:8px 0 6px}
 .muted{color:var(--muted);margin:0 0 14px}
@@ -33,6 +45,10 @@ h1{margin:8px 0 6px}
   height: 100%;
   background:linear-gradient(180deg, rgba(255,255,255,.04), transparent), var(--card);
   border:1px solid var(--border); border-radius:14px; padding:14px;
+  background: rgba(18, 26, 43, 0.72); /* 既存色をrgba化 */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,.12);
 }
 .card h2{
   padding-right: 90px;
