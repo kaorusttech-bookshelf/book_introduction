@@ -28,3 +28,15 @@ h1{margin:8px 0 6px}
   padding:6px 10px; border-radius:999px;
 }
 .links a:hover{background:rgba(122,162,255,.12)}
+.catch{
+  margin: 4px 0 8px;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.desc{
+  margin: 0 0 10px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
