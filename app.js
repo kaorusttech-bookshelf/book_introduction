@@ -42,7 +42,7 @@ function render() {
         </p>
       ` : ""}
 
-      <p class="desc">${escapeHtml(w.desc || "")}</p>
+      <p class="desc">${w.desc || ""}</p>
 
       <div class="links">
         ${(w.links || []).map(l => `
