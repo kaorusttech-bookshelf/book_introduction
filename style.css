@@ -30,8 +30,14 @@ h1{margin:8px 0 6px}
   background:linear-gradient(180deg, rgba(255,255,255,.04), transparent), var(--card);
   border:1px solid var(--border); border-radius:14px; padding:14px;
 }
-.card h2{font-size:16px;margin:0 0 8px}
-.card p{margin:0 0 10px;color:var(--muted);line-height:1.5}
+.card h2{
+  padding-right: 90px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card p{margin:0 0 10px;color:#e6e6e6;line-height:1.5}
 .links{display:flex;gap:10px;flex-wrap:wrap}
 .links a{
   color:var(--accent); text-decoration:none; border:1px solid rgba(122,162,255,.35);
