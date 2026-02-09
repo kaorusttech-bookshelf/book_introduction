@@ -63,5 +63,18 @@
     "links": [
       { "label": "ノベプラ","url": "https://novelup.plus/story/130141490" }
     ]
+  },
+  {
+    "title": "実話怪談「雨女」",
+    "type": "short",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#d7c447",
+    "catch": "私は雨に愛されています",
+    "catchColor": "#434da2",
+    "desc": "ジャンル：ホラー/実話怪談<br><br>雨女の私が体験した実話怪談",
+    "links": [
+      { "label": "カクヨム", "url": "https://kakuyomu.jp/works/822139842847511772" }
+    ]
   }
 ]
