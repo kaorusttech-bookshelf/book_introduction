@@ -167,5 +167,83 @@
     "links": [
       { "label": "カクヨム", "url": "https://kakuyomu.jp/works/16818792439990903098" }
     ]
+  },
+  {
+    "title": "ストラテッラ通信大学",
+    "type": "long",
+    "status": "serializing",
+    "statusLabel": "連載中",
+    "statusColor": "#00984f",
+    "catch": "異世界と現世を繋ぐ通信大学に入学しませんか？",
+    "catchColor": "#007199",
+    "desc": "ジャンル：作品集/異世界ファンタジー/異世界学問体系<br><br>ストラッテッラという現世の太陽系が一つの世界になった異世界で、ヘルメスが開校した通信大学<br>魔法やアーティファクトに関する技術や理論、歴史を学ぶことが出来ます。<br><br>AIが架空の学術体系を築くことが出来るのか、というプロジェクトでもあります。<br>リンクはコレクションです。<br>学校説明資料、履修要項と講師紹介、各講座がコレクションに全て入っています。<br>未完成の講義も多いため、マルチバースしたい方も募集しています。",
+    "links": [
+      { "label": "カクヨム", "url": "https://kakuyomu.jp/users/runa_c_0621/collections/822139837382335932" }
+    ]
+  },
+  {
+    "title": "異世界転生する方法",
+    "type": "short",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#d7c447",
+    "catch": "異世界に行く方法を教えます",
+    "catchColor": "#007199",
+    "desc": "ジャンル：ホラー/宗教<br><br>現世に二度と生まれないための方法を知ることが出来る掌編です。<br>貴方は今、何階にいますか？",
+    "links": [
+      { "label": "カクヨム", "url": "https://kakuyomu.jp/works/7667601419981549526" }
+    ]
+  },
+  {
+    "title": "心の在処",
+    "type": "short",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#d7c447",
+    "catch": "教導者と孤独な科学者",
+    "catchColor": "#007199",
+    "desc": "ジャンル：ポエム/対話<br><br>哲学書かもしれません。<br>心とは何か、について対話する話。",
+    "links": [
+      { "label": "カクヨム", "url": "https://kakuyomu.jp/works/7667601419900550789" }
+    ]
+  },
+  {
+    "title": "AlchemyAIーFirst everメモ",
+    "type": "long",
+    "status": "serializing",
+    "statusLabel": "連載中",
+    "statusColor": "#00984f",
+    "catch": "AIゲームから得た創作ネタ集",
+    "catchColor": "#65ab31",
+    "desc": "ジャンル：エッセイ/創作ネタ集<br><br>AlchemstAIというAlchemy系のパズルゲームながら、その結果がAIで生成されるというアプリにおいて、私がfirst ever(発見者)となった要素のメモ。<br>本来はRedditなどでやるべきことだが創作のネタになりそうなのでここに翻訳文を移しておく。",
+    "links": [
+      { "label": "ノベプラ", "url": "https://novelup.plus/story/257184461" }
+    ]
+  },
+  {
+    "title": "歌",
+    "type": "short",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#d7c447",
+    "catch": "みんなで行ったカラオケで一曲も歌えなかった私が、君に歌を聞かれた",
+    "catchColor": "#de82a7",
+    "desc": "ジャンル：SS/恋愛/青春<br><br>こっそり歌っていたら、クラスで一番歌の上手い君に歌を聞かれた。<br>そこから始まる青春恋愛SS",
+    "links": [
+      { "label": "ノベプラ", "url": "https://novelup.plus/story/408175718" }
+    ]
+  },
+  {
+    "title": "変な世界に行ってきた",
+    "type": "short",
+    "status": "completed",
+    "statusLabel": "完結",
+    "statusColor": "#d7c447",
+    "catch": "もしもし？なぁ、面白い話があるから聞いてくれよ",
+    "catchColor": "#ea553a",
+    "desc": "ジャンル：SS/意味が分かると怖い話/異世界転移<br><br>こないださぁ、なんか変な世界に行ったんだよ。<br>そんな電話がかかってくる。<br>彼が行ったというおかしな世界の話を聞いていたのだが……",
+    "links": [
+      { "label": "ノベプラ", "url": "https://novelup.plus/story/473482029" }
+    ]
   }
 ]
